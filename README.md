@@ -3,7 +3,7 @@
 SIFT is a clear tisuue microscopic inititive that is capable to image centimeter scale tissue with isotropic submicron resolution. We developmed a tissue imaging pipeline where we determine the tissue boundary using deep learning (DL) based tissue informative image distinction. We also built a microsope which either enhances SNR to the images or speed up the frame acquisition rate by 4 fold compared to the existing ASLM microscope.
 
 ## Deep learning based tissue boundary evaluation
-![Temp](https://github.com/ChakraOpticsLab/SIFT/assets/157768359/ddc939ec-0041-4734-bcfe-eca8dd1f7256)
+![Temp](https://github.com/ChakraOpticsLab/SIFT/assets/157768359/4cd070c1-b3f4-403e-b631-8704f13ffb89)
 
 This repository provides the tissue boundary classifier with a trained checkpoint. User may chose not to train the DL model rather they can use our trained chekpoint to identify informative image sets. User may chose to train train the network by themselves for more clarity. Interestingly, DL model is quite functional for any kind of tissues. The required dependencies are mentioned in the 'Requirement.txt' file. User may need to run only'Validationpy.py' file keeping the directory right which will reture the coordinate map enclosing the tissue boundary. Feature based DL classifier is more efficient and faster compared to intensity based thresholding methos. 
 
