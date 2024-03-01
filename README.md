@@ -1,14 +1,14 @@
 # Signal Improved ultra-Fast Light-sheet Microscope (SIFT)
 ## SIFT initiatives
-SIFT is a clear tisuue microscopic inititive that is capable to image centimeter scale tissue with isotropic submicron resolution. We developmed a tissue imaging pipeline where we determine the tissue boundary using deep learning (DL) based tissue informative image distinction. We also built a microsope which either enhances SNR to the images or speed up the frame acquisition rate by 4 fold compared to the existing ASLM microscope.
+SIFT is a clear tisuue microscopic inititive that is capable to image centimeter scale tissue with isotropic submicron resolution. Our initiative involves the development of a tissue imaging pipeline that utilizes deep learning (DL) techniques for precise tissue boundary determination. Additionally, we have engineered a microscope that enhances signal-to-noise ratio (SNR) in images and accelerates frame acquisition rates by up to four times compared to existing ASLM (Advanced Single Lens Microscopy) microscopes.
 
 ## Deep learning based tissue boundary evaluation
 ![Temp](https://github.com/ChakraOpticsLab/SIFT/assets/157768359/4cd070c1-b3f4-403e-b631-8704f13ffb89)
 
-This repository provides the tissue boundary classifier with a trained checkpoint. User may chose not to train the DL model rather they can use our trained chekpoint to identify informative image sets. User may chose to train train the network by themselves for more clarity. Interestingly, DL model is quite functional for any kind of tissues. The required dependencies are mentioned in the 'Requirement.txt' file. User may need to run only'Validationpy.py' file keeping the directory right which will reture the coordinate map enclosing the tissue boundary. Feature based DL classifier is more efficient and faster compared to intensity based thresholding methos. 
+This repository offers a tissue boundary classifier along with a pre-trained checkpoint. Users have the option to skip training the deep learning (DL) model and instead utilize our pre-trained checkpoint for identifying informative image sets. However, users also have the flexibility to train the network themselves for enhanced clarity if desired. Notably, the DL model is highly versatile and functional across various tissue types. The necessary dependencies are outlined in the 'Requirement.txt' file. By running only the 'Validationpy.py' file and ensuring correct directory placement, users can obtain a coordinate map delineating the tissue boundary. It's worth mentioning that the feature-based DL classifier significantly outperforms intensity-based thresholding methods in terms of efficiency and speed.
 
 ## Intensity basedthresholding for tissue boundary evaluation
-We also developed an intensity based thresholding software which is also able to evaluate the tissue boundary though the intensity threshold is not a generalized thing for different tissues. The software and the required dependencies are mentioned in the 'Requirement.txt' file.
+Additionally, we have created an intensity-based thresholding software capable of assessing tissue boundaries. However, it's important to note that the intensity threshold may not be universally applicable across different tissue types. Both the software and its required dependencies are specified in the 'Requirement.txt' file.
 
 ## Citation
 If you find the work helpful in your resarch or work, please cite the following paper:
