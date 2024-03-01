@@ -1,2 +1,2 @@
-# SIFT
-Signal Improved ultra-Fast Light-sheet Microscope (SIFT) for large tissue imaging.
+# Signal Improved ultra-Fast Light-sheet Microscope (SIFT)
+SIFT is a clear tisuue microscopic inititive that 
